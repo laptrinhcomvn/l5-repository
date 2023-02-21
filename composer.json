@@ -25,6 +25,12 @@
     "source":"https://github.com/andersao/l5-repository",
     "docs": "http://andersao.github.io/l5-repository"
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/laptrinhcomvn/laravel-validator"
+    },
+  ],
   "require": {
     "illuminate/http": "^9.0|^10.0",
     "illuminate/config": "^9.0|^10.0",
@@ -33,7 +39,7 @@
     "illuminate/pagination": "^9.0|^10.0",
     "illuminate/console": "^9.0|^10.0",
     "illuminate/filesystem": "^9.0|^10.0",
-    "prettus/laravel-validation": "~1.4",
+    "prettus/laravel-validation": "dev-xcdev",
     "illuminate/validation": "^9.0|^10.0"
   },
   "autoload": {
@@ -56,5 +62,6 @@
       ]
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
